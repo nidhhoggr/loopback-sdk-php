@@ -5,5 +5,5 @@ vendor/
 node_modules/
 .publish/
 loopback.json
-build/models/*
+build/models/base/*
 build/configs/*
