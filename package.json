@@ -1,0 +1,28 @@
+{
+  "name": "crowdsdom-php-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests",
+    "src": "src"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crowdsdom/php-sdk.git"
+  },
+  "author": "Peter Chung <touhonoob@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crowdsdom/php-sdk/issues"
+  },
+  "homepage": "https://github.com/crowdsdom/php-sdk#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}

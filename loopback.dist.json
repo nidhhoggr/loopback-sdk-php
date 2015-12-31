@@ -1,0 +1,15 @@
+{
+  "loopback": {
+    "modelConfig": "loopback/server/model-config.json",
+    "modelsDirectory": "loopback/common/models"
+  },
+  "build": {
+    "classes": "./build/classes",
+    "configs": "./build/configs"
+  },
+  "namespace": "Models",
+  "extends": "Models\\BaseModel",
+  "models": {
+    "ModelClass": "my-model"
+  }
+}

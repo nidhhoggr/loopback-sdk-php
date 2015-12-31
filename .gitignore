@@ -1,0 +1,7 @@
+composer.phar
+composer.lock
+vendor/
+.idea/
+node_modules/
+.publish/
+loopback.json

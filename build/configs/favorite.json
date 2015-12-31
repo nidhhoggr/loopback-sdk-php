@@ -1,0 +1,10 @@
+{
+    "properties": [
+        "subscriber_id",
+        "offer_id",
+        "location_id",
+        "source_id",
+        "source_offer_key",
+        "source_location_key"
+    ]
+}

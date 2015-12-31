@@ -1,0 +1,13 @@
+{
+    "properties": [
+        "first_name",
+        "last_name",
+        "address",
+        "city",
+        "state",
+        "zip",
+        "geocode",
+        "devices",
+        "total_savings"
+    ]
+}
