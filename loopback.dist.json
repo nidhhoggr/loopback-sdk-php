@@ -1,15 +1,23 @@
 {
   "loopback": {
-    "modelConfig": "loopback/server/model-config.json",
-    "modelsDirectory": "loopback/common/models"
+    "modelConfig": "../server/model-config.json",
+    "modelsDirectory": "../common/models"
   },
   "build": {
-    "classes": "./build/classes",
+    "classes": "./build/models/base",
     "configs": "./build/configs"
   },
-  "namespace": "Models",
-  "extends": "Models\\BaseModel",
+  "namespace": "LoopbackSDKPHP\\Models\\Base",
+  "extends": "LoopbackSDKPHP\\Models\\Model",
   "models": {
-    "ModelClass": "my-model"
+    "Key": "key",
+    "Subscriber": {
+      "modelName": "subscriber",
+      "endPoint": "subscribers"
+    },
+    "Favorite": {
+      "modelName": "favorite",
+      "endPoint": "favorites" 
+    }
   }
 }

@@ -1,9 +1,0 @@
-{
-    "properties": [
-        "program_id",
-        "cause_id",
-        "membership_key",
-        "control_number",
-        "is_sold"
-    ]
-}

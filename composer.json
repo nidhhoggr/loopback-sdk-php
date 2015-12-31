@@ -12,7 +12,7 @@
         "psr-4": {
             "LoopbackSDKPHP\\": "src",
             "LoopbackSDKPHP\\Models\\Base\\": "build/models/base",
-            "LoopbackPHP\\": "vendor/touhonoob/LoopbackPHP/src" 
+            "LoopbackPHP\\": "vendor/zmijevik/LoopbackPHP/src" 
         }
     },
     "autoload-dev": {
@@ -24,10 +24,10 @@
         {
             "type": "package",
             "package": {
-              "name": "touhonoob/LoopbackPHP", 
+              "name": "zmijevik/LoopbackPHP", 
               "version": "1.0",
               "source": {
-                "url": "https://github.com/touhonoob/loopback-php-generator.git",
+                "url": "https://github.com/zmijevik/loopback-php-generator.git",
                 "type": "git",
                 "reference": "master"
               }
@@ -40,7 +40,7 @@
         "guzzlehttp/promises": "^1.0",
         "guzzlehttp/psr7": "^1.2",
         "mtdowling/jmespath.php": "^2.2",
-        "touhonoob/LoopbackPHP": "^1.0",
+        "zmijevik/LoopbackPHP": "^1.0",
         "nette/php-generator": "dev-master",
         "symfony/console": "^2.7",
         "symfony/config": "^2.7",
